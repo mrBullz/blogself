@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Блог SelfAI: статьи, кейсы, вебинары и обучение о внедрении ИИ в работу бизнеса.">
+<meta name="theme-color" content="#ffffff"><title>Блог SelfAI — ИИ в работе бизнеса</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css"><script src="./app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#catalog">Перейти к материалам</a>
+<header class="header"><div class="shell header-inner">
+<a class="logo" href="https://selfai.team/" aria-label="SelfAI — на главную"><img src="https://selfai.team/assets/selfai-logo-utDBMafy.jpg" alt="Self_AI" width="112" height="40"></a>
+<nav class="main-nav" aria-label="Основная навигация" id="main-nav"><a href="https://selfai.team/#products">Продукты</a><a href="https://selfai.team/ai-audit">ИИ Аудит</a><a href="https://selfai.team/about">О компании</a><a class="current" href="./index.html" aria-current="page">Блог</a></nav>
+<a class="contact" href="https://selfai.team/#contact">Связаться <span aria-hidden="true">↗</span></a><button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav" type="button"><span></span><span></span></button>
+</div></header>
+<main>
+<section class="intro shell"><p class="eyebrow"><span></span> Блог SelfAI</p><div class="intro-grid"><h1><span>AI</span> в работе бизнеса.<br><em>От идеи до результата</em></h1><p class="lead">Опыт компаний, практические статьи и обучение — чтобы внедрять ИИ с понятным эффектом.</p></div></section>
+<div class="toolbar"><div class="shell toolbar-inner"><nav class="formats" aria-label="Формат материала">
+<a href="#all" data-format="all" class="selected" aria-current="true">Все материалы</a><a href="#articles" data-format="articles">Статьи</a><a href="#cases" data-format="cases">Кейсы</a><a href="#webinars" data-format="webinars">Вебинары</a><a href="#education" data-format="education">Обучение</a>
+</nav><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg><span class="sr-only">Поиск по материалам</span><input type="search" id="search" placeholder="Найти материал"></label></div></div>
+<section class="shell featured" aria-label="Рекомендуемые материалы" id="featured"><a class="feature-main" href="https://selfai.team/cases/forecast"><div class="feature-copy"><p class="eyebrow">Выбор редакции <span class="separator">/</span> Кейс</p><h2>Единый пульт вместо десятков отчётов</h2><p>Как объединить корпоративные данные и сократить ручную сборку управленческой отчётности.</p><span class="dark-button">Читать кейс <i aria-hidden="true">→</i></span></div><div class="feature-image"><img src="https://selfai.team/assets/case-production-LSBv6t2M.jpg" alt="Производственные процессы компании" fetchpriority="high"><span class="image-label">12 систем <b>→</b> 1 пульт</span></div></a>
+<aside class="feature-side"><a class="side-story" href="https://selfai.team/blog/ai-for-business"><p class="eyebrow">С чего начать <span class="separator">/</span> Статья</p><h3>15 задач бизнеса, с которых стоит начать внедрение ИИ</h3><div class="story-bottom"><span>12 мин чтения</span><span class="round-arrow" aria-hidden="true">↗</span></div></a><a class="side-story webinar" href="https://selfai.team/blog/webinar"><p class="eyebrow">Запись вебинара <span class="separator">/</span> 75 мин</p><h3>Корпоративный AI с нуля: первые шаги</h3><div class="story-bottom"><span>Архитектура и безопасность</span><span class="round-arrow" aria-hidden="true">▷</span></div></a></aside></section>
+<section class="shell catalog" id="catalog"><div class="catalog-heading"><div><p class="eyebrow">Практика и знания</p><h2 id="catalog-title">Все материалы</h2></div><p id="result-count" role="status" aria-live="polite"></p></div>
+<div class="topics"><span>Тема</span><label><span class="sr-only">Отфильтровать по теме</span><select id="topic"><option value="all">Все темы</option><option value="start">Внедрение ИИ</option><option value="analytics">Данные и аналитика</option><option value="sales">Продажи</option><option value="marketing">Маркетинг</option><option value="security">Безопасность</option></select></label><button id="reset" type="button" hidden>Сбросить фильтры ×</button></div>
+<div class="material-grid" id="materials"></div><div class="empty" id="empty" hidden><h3>Материалы не найдены</h3><p>Попробуйте другой запрос или выберите другую тему.</p><button type="button" id="empty-reset">Показать все материалы →</button></div>
+<button type="button" class="load-more" id="load-more">Показать ещё <span aria-hidden="true">↓</span></button>
+<noscript><p>Для поиска и фильтров включите JavaScript. <a href="https://selfai.team/blog">Все материалы доступны в блоге SelfAI →</a></p></noscript>
+</section>
+<section class="shell newsletter"><div><p class="eyebrow">Оставаться в курсе</p><h2>Следующий полезный материал —<br><span>в вашей почте</span></h2><p>Кейсы, гайды и анонсы вебинаров от команды SelfAI.</p></div><div class="newsletter-action"><a class="dark-button" href="mailto:weloveyou@self.team?subject=Подписка%20на%20материалы%20SelfAI">Подписаться <i aria-hidden="true">→</i></a><p>Подписка через письмо команде SelfAI</p></div></section>
+</main>
+<footer class="shell footer"><div class="footer-top"><div><a class="wordmark" href="https://selfai.team/">Self<span>_</span>AI</a><p>Полный цикл ИИ-трансформации<br>для бизнеса. Компания Self.team.</p></div><div><p class="eyebrow">Продукты</p><a href="https://selfai.team/serenta">Serenta ↗</a><a href="https://codegryphon.ai/ru">CodeGryphon ↗</a><a href="https://cube.self.team/">Self Cube ↗</a></div><div><p class="eyebrow">Компания</p><a href="https://selfai.team/about">О нас</a><a href="https://selfai.team/blog/clients">Кейсы</a><a href="https://selfai.team/ai-audit">ИИ Аудит</a></div><div><p class="eyebrow">Обсудим вашу задачу</p><a href="mailto:ai@self.team">ai@self.team ↗</a><a href="tel:+74851366271">+7 (485) 136-62-71</a><p>Москва, Краснопролетарская, 16</p></div></div><div class="footer-bottom"><span>© 2026 Self AI</span><a href="https://selfai.team/privacy">Политика конфиденциальности</a><a href="https://selfai.team/marketing-consent">Согласие на рассылки</a><a href="#all" class="back-top">Наверх ↑</a></div></footer>
+</body></html>
